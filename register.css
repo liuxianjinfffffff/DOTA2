@@ -1,0 +1,50 @@
+body{background:url(../img/register/default-body.jpg) no-repeat #fff;}	
+	.headerin{width:100%;height:50px;margin:0px auto;padding:25px 0px 20px 30px;}
+	.headerin img{float:left;}
+	.header-right{float:right;margin:5px 60px 0px 0px;}
+	.header-right b{width:30px;height:30px;background:url(../img/register/rico_global.png) no-repeat;}
+	.header-right a{color:#C9C1C1;font-size:14px;}
+	.header-right i{font-style:normal;color:#C9C1C1;}
+/* 登录框 */
+	.register{margin:0px auto;width:450px;height:630px;margin-top:70px;}
+	.top-text{text-align:center;width:100%;height:100px;}
+	.top-text h1{margin-top:0;font:700 45px"Microsoft Yahei";letter-spacing:5px;text-shadow:1px 1px 1px rgba(0,0,0,0.8);color:#ffffff;}
+	.top-text p{margin-left:85px}
+	/* 手机/邮箱注册 */
+	.btn .btnone,.btntwo{width:225px;height:46px;border:none;outline:none;font-size:18px;color:#fff;background:rgba(15,77,61,0.6);}
+	.btn .btnone{float:left;background:red;}
+	.btn .btntwo{float:right;}	.register .form_1 div,.form_2 div{width:450px;}
+	.register .form_1 input,.form_2 input{width:437px;height:36px;outline:none;margin:10px 0px 10px 0px;padding:0px;padding-left:10px;
+					font-size:16px;color:#fff;background:none;border:1px solid gray;}
+	.register .form_1 input:focus{border-color:#fff;}
+	.register .form_2 input:focus{border-color:#fff;}
+	.register .form_1 div:nth-child(7) input,.form_2 div:nth-child(8) input{width:277px;margin-right:5px;}
+	.register .form_1 div:nth-child(7) button,.form_2 div:nth-child(8) button{width:155px;height:40px;color:#fff;
+					font-size:16px;padding-bottom:3px;outline:none;border:none;background:#4C5F71;border-radius:3px;}
+	.register .form_1 span,.form_2 span{position:absolute;margin:23px 0px 0px 10px;color:red;visibility:hidden;}
+	.register .form_1 span i,.form_2 span i{width:10px;height:6px;background:url(../img/register/rico_error.png) no-repeat;}
+	.register .form_1 div:nth-child(3),.form_2 div:nth-child(3){width:445px;height:14px;text-align:center;}
+	.register .form_1 div:nth-child(3) b,.form_2 div:nth-child(3) b{margin:1px;clear:both;padding:1px 66px 1px 67px;background:red;color:#fff;}
+	.checkbox{background:red;border:none;}
+	.submit {text-align:center;margin-top:10px;cursor:pointer;}
+	.submit a{display:block;width:447px;height:40px;font-size:20px;line-height:40px;color:#fff;}
+	.submit .first{opacity:0.8;border:1px solid red;background:red;}
+	.submit .first:hover{opacity:1;}
+	.submit .last{border:1px solid gray;color:gray;}
+	.submit .last:hover{color:#fff;}
+	.register .form_1{display:block;}
+	.register .form_2{display:none;}
+	/*注册成功了*/
+	.success{width:100%;height:100%;position:fixed;top:0px;left:0px;background:rgba(20,20,20,0.5);z-index:999;display:none;}
+	.register-success{width:500px;height:200px;margin:0px auto;margin-top:300px;text-align:center;background:#FFFFFD;border-top:30px solid #7DC828;border-radius:5px 5px 0px 0px;}
+	.register-success p{display:inline-block;width:100px;height:100px;background:url(../img/register/timg.jpg) 
+	0px 0px no-repeat;background-size:100px 100px;margin-top:20px;}
+	.register-success button{width:150px;margin:0px auto;height:35px;margin-top:20px;font-size:17px;line-height:35px;color:#fff;outline:none;border:none;background:#7DC828;cursor:pointer;}
+	/* 页脚 */
+	footer{position:relative;top:820px;color:#8F8F8F;font-size:13px;}	
+	.Ft-top{margin:0px;display:flex;justify-content:center;border:1px solid rgba(155,166,187,0.2);border-left:none;padding:6px 0px 6px 60px;}
+	.Ft-top li i{margin:10px;font-style:normal;}
+	.Ft-top li a{color:#8F8F8F;}
+	.Ft-center {text-align:center;height:100px;}
+	.Ft-center p{margin:10px;}
+	.Ft-center img{margin-top:-70px;}
