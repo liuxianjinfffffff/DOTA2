@@ -1,0 +1,17 @@
+/*==============================  底部*-============================== */
+/* 页脚 */
+footer{width:100%;height:420px;margin-top:60px;background:#1F1F20;font-family:"微软雅黑";color:#999999;}
+footer .footer-top{width:1260px;height:40px;margin:0px auto;padding:40px 0px 40px 0px;display:flex;justify-content:center;}
+footer .footer-top li{width:200px;font-size:21px;text-align:center;margin:0px 70px 0px 90px;line-height:40px;}
+footer .footer-top li:nth-child(1){background:url(../img/shopping/footer/icon-zan.png) no-repeat;}
+footer .footer-top li:nth-child(2){background:url(../img/shopping/footer/icon-car.png) no-repeat;}
+footer .footer-top li:nth-child(3){background:url(../img/shopping/footer/icon-change.png) no-repeat;}
+/* 页脚 [下]*/
+footer .footer-bottom{width:1260px;height:300px;margin:0px auto;display:flex;justify-content:center;padding:0px 20px 0px 20px;box-sizing:border-box;}
+footer .footer-bottom li{width:180px;margin-top:40px;}
+footer .footer-bottom li h3{margin-bottom:40px;}
+footer .footer-bottom li a{margin:0px 0px 0px 0px;display:block;font-size:13px;}
+footer .footer-bottom li a:hover{text-decoration:underline;color:#76DEF5;}
+footer .footer-bottom li:last-child h1{color:red;margin:-7px 0px 33px -20px;}
+footer .footer-bottom li:last-child p{margin:0px 0px 20px 0px;}
+footer .footer-bottom li:last-child a{padding:7px 26px 7px 26px;border-radius:5px;background:#E53421;display:inline;font-size:16px;border-radius:5px;color:#fff;text-decoration:none;}

@@ -1,0 +1,65 @@
+body{background:url(../img/service/bg_83.jpg) no-repeat #5E6A6A;background-position:50% 1%;}
+/* 页头部分 */
+header{width:990px;height:200px;margin:0px auto;margin-top:20px;}
+header .header-left{width:180px;height:200px;display:block;background:url(../img/service/dota_84.png) 0px 40px no-repeat;float:left;}
+header .header-right{width:770px;height:200px;float:right;}
+header .header-right-01{width:130px;height:28px;margin-left:635px;font-size:16px;line-height:28px;text-align:center;color:#fff;border:1px solid #13A7A9;}
+header .header-right-02{height:40px;margin-top:20px;background:url(../img/service/service_84.png) -12px -12px no-repeat;}
+header .header-right-02 ul{width:450px;height:40px;margin-left:320px;justify-content:space-between;display:flex;}
+header .header-right-02 ul li {font-size:17px;margin:0px 2px 0px 18px ;font-family: "Microsoft YaHei";}
+header .header-right-02 ul li a{line-height:40px;}
+header .header-right-02 ul li:first-child a{color:red;}
+header .header-right-03{height:40px;margin-top:30px;}
+header .header-right-03 input{width:535px;height:34px;outline:none;border:none;font-size:16px;padding-left:8px;margin-right:-10px;}
+header .header-right-03 button{width:110px;height:36px;outline:none;border:none;font-size:16px;padding:0px 2px 2px 3px;margin-top:3px;color:#fff;background:red;}
+/*中间详情*/
+.main{width:990px;height:610px;margin:0px auto;margin-bottom:80px;box-shadow:16px 20px 18px -2px #293034;}
+/*中间详情[左边]*/
+.main .main-left{width:200px;height:610px;float:left;box-sizing:border-box;color:#fff;background:#293034;font-family:"幼圆";font-weight:bold;}
+.main .main-left p{color:#fff;}
+.main .main-left p,.gather{height:43px;display:block;background:#13A7A9;padding-left:30px;font-size:17px;line-height:43px;}
+.main .main-left .gather{background:#293034;height:40px;transition:.4s;overflow:hidden;color:#999999;border-bottom:1px solid #3A4044;}
+.main .main-left .gather i{width:25px;height:15px;float:right;margin:13px 13px 0px 0px ;background:url(../img/service/down_84.png) -6px -8px;transition:.8s;}
+.main .main-left .gather a{display:block;height:20px;margin:0px 0px -31px 0px;font-size:14px;}
+.main .main-left .gather a:hover{color:#13A7A9;}
+.main .main-left .gather:hover{color:#13A7A9;background:#fff;}
+.main .main-left .gather1:hover{height:140px;}
+.main .main-left .gather2:hover{height:140px;}
+.main .main-left .gather3:hover{height:140px;}
+.main .main-left .gather4:hover{height:140px;}
+.main .main-left .gather5:hover{height:240px;}
+.main .main-left .gather6:hover{height:240px;}
+.main .main-left .gather7:hover{height:321px;}
+.main .main-left .gather:hover i{transform:scale(-1);}
+/*中间详情[右边]*/
+.main .main-right{width:790px;height:610px;float:right;padding:0px 40px 0px 40px;box-sizing:border-box;background:#fff;}
+.main .main-right h3{width:705px;height:30px;line-height:40px;font-size:16px;color:#F9521E;}
+.main .main-right .help{margin-top:15px;padding-left:20px;width:690px;height:294px;border:1.5px solid #D9DDDF;background:url(../img/service/people_84.png)540px 20px no-repeat;}
+.main .main-right .help .help-ul li{margin:10px 0px 0px 20px;list-style-image:url(../img/service/arrow_85.jpg);margin-left:20px;font-size:15px;font-family:"微软雅黑";}
+.main .main-right .help .help-ul li a:hover{text-decoration:underline;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

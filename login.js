@@ -1,0 +1,53 @@
+$(document).ready(function(){
+	$(".login_a").click(function(){
+		$(".login").fadeIn(200);
+	});
+});
+$(document).ready(function(){
+	$(".end").click(function(){
+		$(".login").fadeOut(200);
+	});
+});
+//右侧帮助模块
+$(document).ready(function(){
+	$(".nav_main").mouseenter(function(){
+		$(".model>p").html("收起");
+		$(".model>b").html(">");
+		$(".nav_main").css("right","0px");
+	});
+});
+$(document).ready(function(){
+	$(".nav_main").mouseleave(function(){
+		$(".model>p").html("展开");
+		$(".model>b").html("<");
+		$(".nav_main").css("right","-130px");
+	});
+});
+
+//表单input登录[placeholder属性]
+            //账号框
+        uname.addEventListener('focus',function(){//增加获取焦点时监听事件
+             uname.removeAttribute('placeholder')//input获取焦点时，一处placeholder属性
+        });
+         uname.addEventListener('blur',function(){//增加失去焦点时的监听事件
+             uname.setAttribute('placeholder','电子邮箱地址/手机号码')//从新返回监听事件
+        });
+			//密码框
+		upwd.addEventListener('focus',function(){//增加获取焦点时监听事件
+            upwd.removeAttribute('placeholder')//input获取焦点时，一处placeholder属性
+        });
+        upwd.addEventListener('blur',function(){//增加失去焦点时的监听事件
+            upwd.setAttribute('placeholder','请输入您的密码')//从新返回监听事件
+        });
+			//底部搜索框
+		search.addEventListener('focus',function(){//增加获取焦点时监听事件
+            search.removeAttribute('placeholder')//input获取焦点时，一处placeholder属性
+        });
+        search.addEventListener('blur',function(){//增加失去焦点时的监听事件
+            search.setAttribute('placeholder','请输入您的密码')//从新返回监听事件
+        });
+//弹出登录成功了
+	$('.login_ok').click(function(){
+		alert('登录成功！');
+		$('.login').hide();
+	});

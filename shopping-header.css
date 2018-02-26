@@ -1,0 +1,32 @@
+/*==============================  顶部*-============================== */
+header{width:100%;height:130px;background:#1F1F20;font-family:"微软雅黑";margin-bottom:-130px;}
+/*logo*/
+.header-up{width:1260px;height:90px;margin:0px auto;}
+.header-up .header-img{width:380px;float:left;}
+.header-img img{margin-top:15px;}
+ .line{padding:0px;margin:0px;border-bottom:1px solid #4B4848;}
+/*登录，购物车*/
+.header-up .header-login{width:600px;height:30px;float:right;margin-top:36px;}
+.header-login a:first-child{padding:7px 26px 7px 26px;border-radius:5px;}
+.header-login a{padding:7px 12px 7px 12px;background:rgba(51,52,53,1);display:inline;font-size:16px;border-radius:5px;color:#999999;}
+.header-login a:nth-child(3) i{background:url(../img/shopping/header/icon-people2.png)3px 2px no-repeat;padding:0px 14px 0px 4px;display:inline;}
+.header-login a:nth-child(3):hover i{background:url(../img/shopping/header/icon-people2-hov.png)3px 2px no-repeat;padding:0px 14px 0px 4px;display:inline;}
+.header-login a:nth-child(4) i{background:url(../img/shopping/header/icon-heart.png)3px 4px no-repeat;padding:0px 14px 0px 4px;display:inline;}
+.header-login a:nth-child(4):hover i{background:url(../img/shopping/header/icon-heart-hov2.png)3px 4px no-repeat;padding:0px 14px 0px 4px;display:inline;}
+.header-login a:nth-child(5) i{background:url(../img/shopping/header/icon-cart.png)3px 0px no-repeat;padding:0px 14px 0px 4px;display:inline;}
+.header-login a:nth-child(5):hover i{background:url(../img/shopping/header/icon-cart-hov.png)3px 0px no-repeat;padding:0px 14px 0px 4px;display:inline;}
+/*购物车下拉*/
+.header-login a:nth-child(5) .cart{width:300px;height:0px;position:relative;left:285px;top:10px;transition:.6s;overflow:hidden;z-index:100;background:#333435;}
+.header-login a:nth-child(5) .cart li{text-align:center;padding:8px;}
+.header-login a:nth-child(5):hover .cart{height:150px;}
+.header-login a:nth-child(3),a:nth-child(4),a:nth-child(5){padding:0px;background:none;margin-left:25px;}
+/*分页选项*/
+.header-down{width:1260px;height:38px;margin:0px auto;padding:0px;}
+.header-down li{float:left;border-bottom:2.3px solid transparent;margin-left:45px;font-size:17px;padding:0px 8px 0px 8px;}
+.header-down li:hover{border-color:red;}
+.header-down li:hover a{color:red;}
+.header-down li:last-child{float:right;border:none;}
+.header-down li:last-child a{padding:0px 4px 4px 10px;background:url(../img/shopping/header/icon-search.png)6px 3px no-repeat;background-size:20px 20px;display:inline;}
+.header-down li:last-child input{width:250px;height:26px;outline:none;border:none;background:rgba(50,54,54,0.5);color:#fff;padding-left:10px;}
+.header-down li:first-child{margin-left:-1px;border-color:red;}
+.header-down li a{line-height:36px;}

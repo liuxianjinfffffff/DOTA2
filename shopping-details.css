@@ -1,0 +1,61 @@
+/*==============================  顶部*-============================== */
+/*路径导航链接*/
+.navigation{width:100%;height:44px;margin-top:130px;font-family:"微软雅黑";}
+.navigation p{width:1260px;text-align:left;margin:0px auto;padding-left:10px;box-sizing:border-box;}
+.navigation p a{line-height:40px;font-size:12px;}
+.navigation p a:last-child{margin-left:-2px;}
+/*商品展示，加入购物车/立即购买*/
+.show{width:1260px;height:600px;margin:0px auto;font-family:"微软雅黑";}
+/*左边*/
+.show-left{width:433px;height:600px;float:left;padding-top:30px;box-sizing:border-box;}
+.show-left-top,.show-left-bottom{width:430px;display:flex;justify-content:space-bewtten;}
+.show-left-top{height:430px;overflow:hidden;}
+.show-left-top li img{width:430px;height:430px;}
+.show-left-bottom{height:100px;justify-content:center;margin-top:30px;background:#FFFFFF;}
+.show-left-bottom li{margin:0px 4px 0px 4px;opacity:0.9;}
+/*右边*/
+.show-right{width:750px;height:600px;float:right;box-sizing:border-box;}
+.show-right p:nth-child(1){padding-bottom: 20px;font-size: 30px;color: #474747;font-weight: normal;padding-top:30px;}
+.show-right p:nth-child(2){padding-bottom: 20px;font-size: 16px;}
+.show-right p:nth-child(3){padding-bottom: 20px;font-size: 25px;color:red;border:1px solid #EFEFEF;width:650px;line-height:30px;padding-top:25px;border-left:none;border-right:none;}
+.show-right .select{margin-top:30px;cursor:pointer;}
+.show-right .select-site{width:300px;display:inline-block;}
+.show-right .select-site i{width:13px;height:7px;margin-left:6px;background:url(../img/shopping/body/base.png)1px 1px no-repeat;display:inline-block;}
+.show-right .hehe{width:270px;height:0px;position:absolute;margin-left:110px;overflow:hidden;transition:.5s;z-index:100;background:#f3f0f0;}
+.show-right .hehe ul{display:flex;justify-content:space-bewtten;}
+.show-right .hehe ul li{width:90px;text-align:center;margin-top:0px;padding:7px 0px 7px 0px;font-size:16px;transition:0.5s;}
+.show-right .hehe div{width:300px;height:200px;margin:0px auto;position:absolute;top:30px;}
+.show-right .hehe div dd{float: left; cursor: pointer; padding: 5px 10px;list-style:none;transition:1.2s;}
+.show-right .hehe div dd:hover{background:red;color:#fff;}
+.show-right .count{margin:30px 0px 50px 0px;}
+.show-right .count-in{display:inline-block;width:135px;height:20px;padding-bottom:8px;margin:0px 40px 0px 15px;}
+.show-right .count-in span{width:50px;height:22px;font-size:22px;display:inline-block;line-height:20px;text-align:center;margin-top:3px;}
+.show-right .count-in input{width:30px;height:17px;padding-left:5px;outline:none;border:none;}
+.show-right .purchase a{display:inline-block;width:260px;height:65px;border:1px solid red;font-size:25px;line-height: 65px;text-align: center;background:red;color:#fff;transition:.2s;}
+.show-right .purchase a:last-child{margin-left:20px;border-color:red;background:none;color:red;}
+.show-right .purchase a:last-child:hover{border-color:red;background:red;color:#fff;}
+.show-right .purchase a:last-child i{width:40px;height:30px;background:url(../img/shopping/body/base.png) -182px -73px no-repeat;display:inline-block;position:relative;top:10px;transition:.2s;}
+.show-right .purchase a:last-child:hover i{background-position:-182px -98px;}
+	/*商品介绍*/
+.presentation{width:1260px;height:600px;margin:0px auto;font-family:"微软雅黑";margin-top:40px;}
+	/*商品介绍[左边]*/
+.presentation-left{    width: 160px;padding: 0 15px 30px 15px;margin-right: 20px; background-color: #FFF;color: #666;float:left;}
+.presentation-left p{    height: 37px;padding-top: 23px; border-bottom: 1px solid #e0e0e0;font-size: 16px;}
+	/*商品介绍[右边]*/
+.presentation-right{width:1040px;height:3500px;float:right;overflow:hidden;}
+.presentation-right	img{width:1040px;}
+.product-comment{overflow: hidden;padding:14px;border-bottom: 1px solid #e0e0e0;background-color: #FFF;} 
+.product-comment a{display:inline-block;width:210px;height:30px;font-size:18px;line-height: 30px;text-align:center;color:red;}	
+.product-comment a:last-child{border-left:1px solid #E0E0E0;margin-left:-7px;color:gray;}
+/*购物车*/
+nav{width:50px;height:300px;position:fixed;right:10px;top:300px;background:#1F1F20;}
+nav a{display:block;width:50px;height:50px;margin:0px;}
+nav .user{background:url(../img/shopping/header/icon-people2.png)15px 15px no-repeat;}
+nav .user:hover{background:url(../img/shopping/header/icon-people2-hov.png)15px 15px no-repeat;}
+nav .like{background:url(../img/shopping/header/icon-heart.png)15px 15px no-repeat;}
+nav .like:hover{background:url(../img/shopping/header/icon-heart-hov2.png)15px 15px no-repeat;}
+nav .shopping-car{height:150px;background:url(../img/shopping/header/icon-shop.png)13px 10px no-repeat #FF7357;font-size:18px;color:#fff;text-align:center;font-family:"幼圆";}
+nav .message{margin:0px;background:url(../img/shopping/header/icon-talk.png)15px 18px no-repeat;}
+
+
+

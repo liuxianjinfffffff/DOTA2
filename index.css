@@ -1,0 +1,79 @@
+body{background:#0E0B0B;}
+.video{width:100%;height:450px;text-align:center;}
+.video video{width:100%;}
+.menu{width:1500px;height:70px;position:relative;top:-385px;font-size: 17px;
+					font-family:"Microsoft YaHei";margin:0px auto;}
+.top-nav li{margin:8px 60px 0px 60px;text-align:center;}
+.top-nav li:nth-child(1),li:nth-child(2),li:nth-child(3){float:left;}
+.top-nav li:nth-child(4),li:nth-child(5),li:nth-child(6){float:right;}
+.top-nav li a {color:#A69E99;}
+.top-nav li a:hover{color:#FAE5AB;}
+.top-nav li a span:last-child{font-size:10px;}
+				/*中间的logo*/
+.menu .logo{position:absolute;top:-30px;left:630px;}
+				/*血战之命*/
+.max-logo{width:100%;height:300px;position:absolute;text-align:center;top:210px;}
+				/*播放按钮*/
+.play{width:1500px;height:80px;position:relative;margin:0px auto;}
+.playr{width:80px;height:80px;border-radius:50%;margin:0px auto;display:block;text-align:center;
+			background:url(../img/officicl/link.png) no-repeat;}
+				/*新英雄*/
+.hero{width:100%;height:110px;font-size: 24px; color: #e1c076;letter-spacing: 5px;z-index:100px;
+						position:absolute;top:645px;display:block;text-align:center;}
+.hero a{height: 50px;width: 304px;border: 1px solid #e1c076;margin: 0 auto ;border-radius: 4px;background-color: rgba(255,192,118,.2);
+    padding-left:10px;color: #e1c076;display: block;font-size: 22px;text-align: center;line-height: 50px;transition: background-color .6s;letter-spacing: 3px;}
+.hero a:after{content:'»';color:yellow;opacity:0;transition:.6s;}
+.hero a:hover::after{opacity:1;margin-left:15px;}
+.hero a:hover{border-color:yellow;background-color: rgba(255,192,118,.4);color:yellow;}
+				/*过渡背景*/
+.img{width:100%;height:140px;position:absolute;top:760px;background:url(../img/officicl/bg_02.png) no-repeat 0px -160px;opacity:0.5;}
+				/*三大块*/
+.main{width:1400px;height:280px;top:250px;position:relative;margin:0px auto;background:transparent;}
+.main ul{display:flex;justify-content:space-between;}
+.main ul li{width:385px;height:275px;float:left;overflow:hidden;transition:.6s;}
+.main ul li h2{width:385px;height:60px;background:#1B1617;text-align:center;font-size:20px;color:#6E6E6E;line-height:55px; transition:.6s;}
+.main ul li:hover h2{background:#382744;color:white;}
+.main ul li img{opacity:0.9; transition:.6s;}
+.main ul li:hover img{opacity:1;transform:scale(1.05)}
+.main ul li:hover {transform:translateY(-15px);box-shadow:0px .5px 3px 0px #E3CE90;}
+				/*玩家选项*/
+	.select{width:1400px;height:750px;margin:0px auto;margin-top:250px;}
+	.select h2{background:red;display:block;width:800px;height:600px;position:absolute;transition:.6s;margin-top:100px;}
+	.select a{display:block;width:385px;height:255px;margin-top:250px;z-index:999;transition:.6s;}
+	.select a:hover{transform:translateY(-20px);}
+	.select a:first-child{float:left;background:url(../img/officicl/bg1.png) no-repeat;}
+	.select a:last-child{float:right;background:url(../img/officicl/bg2.png) no-repeat;}
+	.select .selecth1{background:url(../img/officicl/dbg2.png) no-repeat;opacity:1;margin-left:300px;}
+	.select .selecth2{background:url(../img/officicl/dbg1.png) no-repeat;opacity:0;margin-left:500px;}
+				/*底部导航*/
+.nav{width:100%;height:80px;display:block;background:#1C1A18;margin:0px auto;margin-bottom:30px;}
+.bottom-nav{width:1400px;margin:0px auto;}
+.bottom-nav ul{float:left;width:1000px;margin-top:15px;}
+.bottom-nav ul li{width:100px;height:32px;float:left;text-align:center;margin:10px 0px 0px 20px;}
+.bottom-nav ul li span{width:28px;height:28px;border:1.5px solid gray;display:block;}
+.bottom-nav ul li span:nth-child(1),span:nth-child(2),span:nth-child(3){border-radius:50%;}
+.bottom-nav ul li:hover span{border-color:red;}
+.bottom-nav ul li a{font-size:16px;color:#999999;margin:0px;padding:0px;position:relative;top:-25px;left:20px;}
+.bottom-nav ul li:hover a{color:red;}
+  /*隐藏的div元素*/
+ .bottom-nav ul li .block{width:170px;height:170px;float:left;margin:-185px 0px 0px -67px;opacity:0;transition:.5s;
+					background:url(../img/erweima/ewm3.png) no-repeat;background-size:cover;}
+.bottom-nav ul li:nth-child(1):hover  .block{opacity:1;}
+.bottom-nav ul li:nth-child(1) span{background:url("../img/officicl/icon-share.png")no-repeat -1px -401px;}
+.bottom-nav ul li:nth-child(1):hover span{background:url("../img/officicl/icon-share.png")no-repeat -1px -451px;border-color:green;}
+.bottom-nav ul li:nth-child(1):hover a{color:green;}
+.bottom-nav ul li:nth-child(2) span{background:url("../img/officicl/icon-share.png")no-repeat 1px -97px;}
+.bottom-nav ul li:nth-child(2):hover span{background:url("../img/officicl/icon-share.png")no-repeat 1px -146px;}
+.bottom-nav ul li:nth-child(3) span{background:url("../img/officicl/icon-share.png")no-repeat 1px -197px;}
+.bottom-nav ul li:nth-child(3):hover span{background:url("../img/officicl/icon-share.png")no-repeat 1px -247px;}
+.bottom-nav ul li:nth-child(3){margin-right:150px;}
+.bottom-nav ul li:nth-child(4) span{background:url("../img/officicl/icon-share.png")no-repeat 1px 3px;}
+.bottom-nav ul li:nth-child(4):hover span{background:url("../img/officicl/icon-share.png")no-repeat 1px -48px;}
+.bottom-nav ul li:nth-child(5) span{background:url("../img/officicl/icon-share.png")no-repeat 1px -97px;}
+.bottom-nav ul li:nth-child(5):hover span{background:url("../img/officicl/icon-share.png")no-repeat 1px -146px;}
+.bottom-nav ul li:nth-child(6) span{background:url("../img/officicl/icon-share.png")no-repeat 1px -197px;}
+.bottom-nav ul li:nth-child(6):hover span{background:url("../img/officicl/icon-share.png")no-repeat 1px -247px;}
+.nav-a{float:right;background:url("../img/officicl/bg_shoplink.png")no-repeat ;width:295px;height:45px;margin-top:20px;}
+.nav-a:hover{background:url("../img/officicl/bg_shoplink.png")no-repeat 0px -45px;width:295px;height:45px;margin-top:20px;}
+/*=================== 点击回到顶部=======================  */
+.backtop{z-index:100;display:block;width:42px;height:42px;background:url(../img/go-top/go-back.jpg) 50% 50% no-repeat;position:fixed; bottom:40px;right:40px;background-size:50px 50px;border-radius:5px;}
